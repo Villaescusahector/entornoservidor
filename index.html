@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Concesionario</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Concesionario</h1>
+
+    <main>
+
+        <section>
+
+            <h2>Registrar usuario</h2>
+
+            <form id="formUsuario">
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Username"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Nombre"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                    required
+                >
+
+                <button type="submit">
+                    Registrar usuario
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Registrar coche</h2>
+
+            <form id="formCoche">
+
+                <input
+                    type="text"
+                    id="marca"
+                    placeholder="Marca"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="modelo"
+                    placeholder="Modelo"
+                    required
+                >
+
+                <input
+                    type="number"
+                    id="precio"
+                    placeholder="Precio"
+                    required
+                >
+
+                <button type="submit">
+                    Registrar coche
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section>
+
+            <h2>Coches</h2>
+
+            <button id="btnCoches">
+                Mostrar coches
+            </button>
+
+            <div id="resultado"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
